@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>Öğrenci Not Verme</title>
+
+
+        <link rel="stylesheet" href="tablo.css">
+    </head>
+    <body>
+
+ 
+
+        <div id="sayfa">            
+        <table id="liste" border="1" width="100%" bordercolor="purple">
+        <tr>
+        <th class="th" id="ad">Öğrencinin adı</th>
+        <th class="th" id="soyad">Öğrencinin Soyadı</th>
+        <th class="th" id="sınıf">Öğrencinin Sınıfı</th>
+        <th class="th" id="not">Öğrencinin Notu</th>
+        <th class="th" id="degistir">+/-</th>
+        </tr>
+
+        <tr >
+        <td >Sema</td>
+        <td>Yılmaz</td>
+        <td>12/A</td>
+        <td> <input type="text" id="sonuc" class="sonuc" value="90"></td>
+        <td ><input class="buton" id="arttir" type=button onclick="arttir()" value="+">    
+        <input  class="buton" id="azalt" type=button onclick="azalt()" value="-"></td>
+        </tr>
+
+        <tr >
+        <td >Ahmet</td>
+        <td>Şahin</td>
+        <td>12/B</td>
+        <td> <input type="text" class="sonuc" id="sonuc1" value="85"></td>
+        <td ><input class="buton" id="arttir1" type=button onclick="arttir1()" value="+">  
+        <input  class="buton" id="azalt1" type=button onclick="azalt1()" value="-"></td>
+        </tr>
+
+        <tr >
+        <td >Selim</td>
+        <td>Güney</td>
+        <td>12/C</td>
+        <td> <input type="text" id="sonuc2" class="sonuc" value="95"></td>
+        <td ><input class="buton" id="arttir2" type=button onclick="arttir2()" value="+">   
+        <input  class="buton" id="azalt2" type=button onclick="azalt2()" value="-"></td>
+        </tr>
+
+        <tr >
+        <td >Aysu</td>
+        <td>Yıldız</td>
+        <td>12/A</td>
+        <td> <input type="text" id="sonuc3" class="sonuc" value="85"></td>
+        <td ><input class="buton" id="arttir3" type=button onclick="arttir3()" value="+">    
+        <input  class="buton" id="azalt3" type=button onclick="azalt3()" value="-"></td>
+        </tr>
+
+
+        <tr id="satir"></tr>
+        
+        <div id="sayfa">
+        <label>Ad:</label>    <input type="text"  id="ad">
+        <label>Soyad:</label> <input type="text"  id="soyad">
+        <label>Sınıf:</label>   <input type="text"  id="sınıf">
+        <label>Not:</label>    <input type="text"  id="not">
+            
+        <button id="ekle">Tabloya Ekle</button>
+          
+<br><br>
+        </div>
+
+<script type="text/javascript" src="tablo.js">
+                   
+</script>
+
+        
+
+    
+</body>
+    </html>

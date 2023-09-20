@@ -1,0 +1,26 @@
+.buton{
+    width:49%;
+    border-color:purple;
+}
+.ekle{
+    margin-left: 60px;
+    border-color: purple; 
+    text-align: center;  
+}
+
+.th {
+    background-color:#d8bfd8 ;
+    width: 20%;
+}
+.sonuc{
+    width: 97%;
+    text-align: center;
+    margin: auto;
+}
+#ad,#soyad,#sınıf,#not {
+
+width: 19%;
+}
+#ekle{
+width: 9.3%;
+}
